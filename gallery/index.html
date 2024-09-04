@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Our Image Gallery</h1>
+        <nav>
+            <a href="#scenery">Scenery</a>
+            <a href="#Animated art">Animated art</a>
+            <a href="#decor">Home Decoration</a>
+            <a href="#more">More Categories</a>
+        </nav>
+    </header>
+
+   
+    <section id="scenery">
+        <h2>Scenery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="1.jpg" alt="Beautiful Mountain" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="2.jpg" alt="Sunset over the Ocean" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="3.jpeg" alt="Sunset over the Ocean" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="4.jpeg" alt="Sunset over the Ocean" class="gallery-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Flowers Section -->
+    <section id="Animated art">
+        <h2>Animated art</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="a1.jpeg" alt="Rose" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="a2.jpg" alt="Tulip" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="a3.jpg" alt="Tulip" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="a4.jpg" alt="Tulip" class="gallery-image">
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Home Decoration Section -->
+    <section id="decor">
+        <h2>Home Decoration</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="h1.jpg" alt="Modern Living Room" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="h3.jpeg" alt="Cozy Bedroom" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="h2.jpg" alt="Cozy Bedroom" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="h4.jpg" alt="Cozy Bedroom" class="gallery-image">
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    
+    <footer>
+        <p>&copy; 2024 Image Gallery. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+   
+    <div class="modal" id="imageModal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
